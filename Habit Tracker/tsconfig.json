@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "baseUrl": ".",
+    "paths": {
+      "react": ["./node_modules/@types/react"],
+      "~*": ["src/*"],
+      "~assets": ["assets"]
+    }
+  },
+  "extends": "expo/tsconfig.base"
+}
