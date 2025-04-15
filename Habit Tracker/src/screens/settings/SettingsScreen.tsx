@@ -252,7 +252,7 @@ export const SettingsScreen = () => {
             ]}
             onPress={() =>
               openEmail(
-                "mailto:engineeringwithjames@gmail.com?subject=Suggest a feature&body=Hi there, I would like to suggest a feature for the app."
+                "mailto:jaysinghi1610@gmail.com?subject=Suggest a feature&body=Hi there, I would like to suggest a feature for the app."
               )
             }
           >
@@ -287,7 +287,7 @@ export const SettingsScreen = () => {
               }
             ]}
             onPress={() =>
-              openEmail("mailto:engineeringwithjames@gmail?subject=REPORT: I found a bug&body=")
+              openEmail("mailto:jaysinghi1610@gmail?subject=REPORT: I found a bug&body=")
             }
           >
             <View style={styles.settingsItemContent}>
@@ -322,7 +322,7 @@ export const SettingsScreen = () => {
             ]}
             onPress={() =>
               WebBrowser.openBrowserAsync(
-                "https://engineeringwithjames.github.io/happly-docs/privacy"
+                "https://jaysinghi.github.io/habit-tracker-docs/privacy"
               )
             }
           >
@@ -362,7 +362,7 @@ export const SettingsScreen = () => {
             ]}
             onPress={() =>
               WebBrowser.openBrowserAsync(
-                "https://jamesodeyale.github.io/happly-docs/terms_and_conditions"
+                "https://jaysinghi.github.io/habit-tracker-docs/terms_and_conditions"
               )
             }
           >
@@ -409,7 +409,7 @@ export const SettingsScreen = () => {
           {/*    <Text style={{ marginLeft: 20 }}>Terms of Service</Text>*/}
           {/*  </View>*/}
           {/*  <Icon name='chevron-forward' size={20} color={APP_BLACK}*/}
-          {/*        onPress={() => WebBrowser.openBrowserAsync('https://jamesodeyale.github.io/happly-docs/terms_and_conditions')} />*/}
+          {/*        onPress={() => WebBrowser.openBrowserAsync('https://jaysinghi.github.io/habit-tracker/terms_and_conditions')} />*/}
           {/*</View>*/}
         </View>
 
@@ -445,9 +445,6 @@ export const SettingsScreen = () => {
                 paddingRight: horizontalScale(0)
               }
             ]}
-            onPress={() =>
-              WebBrowser.openBrowserAsync("https://www.instagram.com/engineeringwithjames/")
-            }
           >
             <View style={styles.settingsItemContent}>
               <View
@@ -479,9 +476,6 @@ export const SettingsScreen = () => {
                 paddingRight: horizontalScale(0)
               }
             ]}
-            onPress={() =>
-              WebBrowser.openBrowserAsync("https://www.youtube.com/@engineeringwithjames")
-            }
           >
             <View style={styles.settingsItemContent}>
               <View

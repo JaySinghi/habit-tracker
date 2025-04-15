@@ -35,7 +35,7 @@ export const OnboardScreenOne = () => {
             }
           ]}
         >
-          Welcome to Happly
+          Welcome to Habit-tracker
         </Text>
         <Text
           style={[

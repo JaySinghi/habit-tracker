@@ -254,7 +254,7 @@ export const SignUpScreen = () => {
               ]}
               onPress={() =>
                 WebBrowser.openBrowserAsync(
-                  "https://jamesodeyale.github.io/happly-docs/terms_and_conditions"
+                  "https://jaysinghi.github.io/habit-tracker/terms_and_conditions"
                 )
               }
             >
@@ -264,7 +264,7 @@ export const SignUpScreen = () => {
             <Text
               style={[styles.HighlightedText, { color: theme.MAIN_ACCENT_COLOR }]}
               onPress={() =>
-                WebBrowser.openBrowserAsync("https://jamesodeyale.github.io/happly-docs/privacy")
+                WebBrowser.openBrowserAsync("https://jaysinghi.github.io/habit-tracker/privacy")
               }
             >
               privacy policy

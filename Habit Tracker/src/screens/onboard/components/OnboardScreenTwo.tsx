@@ -49,7 +49,7 @@ export const OnboardScreenTwo = () => {
             }
           ]}
         >
-          You can build up a new habit or quit an existing bad one with Happly.
+          You can build up a new habit or quit an existing bad one with Habit-tracker.
         </Text>
       </View>
     </>
