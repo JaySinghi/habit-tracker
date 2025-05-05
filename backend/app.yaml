@@ -1,0 +1,11 @@
+runtime: nodejs18
+
+instance_class: F1
+
+env_variables:
+  MONGO_URL: 'mongodb+srv://JaySinghi10:Blaugrana16@cluster0.moodp.mongodb.net/habit-tracker?retryWrites=true&w=majority&appName=Cluster0'
+  JWT_SECRET: "99c35f90ceb77bd57434b2209b49b05d901092fe3c3b36828650358c5c98824b"
+
+handlers:
+  - url: /.*
+    script: auto
